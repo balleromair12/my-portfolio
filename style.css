@@ -1,1 +1,209 @@
-{"error":".zip archives do not support non-regular files","level":"error","msg":"unable to write file .cache/replit/modules/replit:v5-20240209-9e3a339","time":"2024-02-16T23:39:17Z"}
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+body{
+  position: relative;
+}
+
+.hero{
+  text-align: center;
+  border: 2px solid black;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(https://wallpaperaccess.com/full/2661629.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 600px;
+  width: 100%;
+}
+
+#me{
+  width: 170px;
+  border-radius: 100%;
+/*   margin-top: 80px; */
+  position: relative;
+  top: 130px;
+  border: 3px solid gray;
+  box-shadow: 3px 3px (black)
+}
+#projects-section .row{
+  padding:2%;
+}
+
+#projects-section #game{
+  color:blue;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+  padding-top: 130px;
+  font-size: 40px;
+/*   font-family: 'Lobster', cursive; */
+}
+
+#hero-section h3{
+  text-align: center;
+  color: lightcoral;
+  text-shadow: 5px 5px black;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+.nav-link:hover{
+  background: green;
+  transform: scale(1.1);
+}
+
+.navbar-brand:hover{
+  transform: scale(1.3);
+}
+
+#Resume{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: lightseagreen;
+  text-align: center;
+}
+
+#Resume #r{
+  padding: 20px;
+}
+#Mission{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background: lightblue;
+}
+
+#Mission p{
+/*   margin-left: -120px; */
+  text-align: justify;
+/*   margin-right: 230px; */
+}
+
+#Mission .container{
+  text-align: center;
+}
+
+#skills-section{
+  background: lightseagreen;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  text-align: center;
+  padding:20px;
+}
+
+#skills-section img{
+  width:100px;
+}
+
+#certificate-section{
+  padding: 20px;
+}
+
+#certificate-section .row{
+  padding: 1%;  
+}
+
+#skills-section .row{
+  padding:1%;
+}
+
+#projects-section{
+  background: lightseagreen;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#projects-section p{
+  padding: 10px;
+  text-align: justify;
+}
+
+#projects-section img{
+  padding: 20px;
+}
+
+#certificate-section{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: lightblue;
+}
+
+#inspiration-section{
+  text-align: center;
+  background: lightblue;  
+  padding: 40px;
+}
+
+.AR, .CP3, .CR7, .SC30, .MR{
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-shadow: 4px 4px black;
+  letter-spacing: 8px;
+/*   font-size: 45px; */
+}
+
+
+.SIUUU, .DA17, .curry, .DB1 {
+   font-family: 'Bebas Neue', cursive;
+/*   font-size: 22px; */
+  color: white;
+  text-shadow: 3px 3px black;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+  height: 90vh;
+  overflow: hidden;
+  padding-top: 20px;
+ }
+
+
+.carousel-caption{
+  z-index: 1;
+}
+
+
+#contact-section{
+  background: lightseagreen;
+  padding: 40px;
+  text-align: center;
+}
+
+#footer-section{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 6px;
+}
+
+#skills-section p{
+  padding-top: 25px;
+  color: darkgreen;
+}
+
+#mission-target, #skills-target, #inspiration-target, #contact-target, #projects-target, #resume-target, #certificate-target{
+    position: relative;
+    top: -100px;
+}
+
+#contact-section h1{
+  margin-top: -100px;
+  font-size: 65px;
+  padding-bottom: 40px;
+}
+
+#contact-section i:hover{
+  color: darkblue;
+}
+
+.carousel-caption {
+	background-color: rgba(0,0,0,.3);
+}
