@@ -44,8 +44,8 @@ h1{
 
 #hero-section h3{
   text-align: center;
-  color: lightcoral;
-  text-shadow: 5px 5px black;
+  color: gray;
+  text-shadow: 4px 4px black;
   padding-top: 5px;
   font-size: 14px;
 }
