@@ -159,7 +159,7 @@ h1{
 .carousel-item img{
   object-fit: cover;
   object-position: center;
-  height: 90vh;
+  height: 95vh;
   overflow: hidden;
   padding-top: 20px;
  }
