@@ -1,0 +1,95 @@
+nav{
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    background-color:rgb(51, 67, 67);
+    padding: 10px;
+
+}
+nav ul{
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 100px;
+    font-size: large;
+}
+  
+nav a{
+    text-decoration: none;
+    color: rgb(225, 213, 213);
+}
+
+nav a:hover{
+    color: rgb(16, 16, 163);
+}
+
+.row1, .row2, .row3, .row4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding:0px; 
+    width:100%;
+    padding: 10px;
+    border: 2px solid gray;
+    height: 350px;
+}
+
+.viz1, .viz2{
+    flex: 1;
+    display: flex;
+    font-size: small;
+    padding: 10px;
+}
+  
+ /* nav ul {
+    list-style: none;
+} */
+/*
+nav ul ul{
+    position: absolute; 
+    padding: 0; 
+    display: none;
+    background-color: #bcbdc1;
+}
+
+nav ul ul li{
+    border: 1px solid #00005d; 
+    display: block;
+    width: 7em;
+    padding: 5px;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+nav li:hover ul{
+    display: block;
+}
+
+nav li{
+    border-bottom: 1px solid darkblue;
+} */
+
+/* main li{
+    padding:5px;
+}
+main{
+    display: flex;
+    background-color: whitesmoke;
+    overflow: auto; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+} */
+
+#wrapper{
+    background-color: #90c7e3;
+    background-image: linear-gradient(white,lightblue);
+    background-repeat: no-repeat;
+}
+
+body{
+    text-align: center;
+}
