@@ -1,5 +1,3 @@
-/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
-
 body{
   position: relative;
 }
@@ -76,9 +74,11 @@ h1{
 }
 
 #Mission p{
-/*   margin-left: -120px; */
   text-align: justify;
-/*   margin-right: 230px; */
+}
+
+#Mission h3{
+  padding-bottom: 40px;
 }
 
 #Mission .container{
@@ -138,7 +138,7 @@ h1{
   padding: 40px;
 }
 
-.AR, .CP3, .CR7, .SC30, .MR, .J-Lo{
+.AR, .CP3, .JJ8, .SC30, .MR, .J-Lo{
   font-family: 'Abril Fatface', cursive;
   color: white;
   text-shadow: 4px 4px black;
@@ -146,8 +146,25 @@ h1{
 /*   font-size: 45px; */
 }
 
+#carouselExampleCaptions,
+.carousel-item {
+  height: 90vh; /* Make carousel and slides full screen height */
+}
 
-.SIUUU, .DA17, .curry, .DB1, .10ve{
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* Fill and crop */
+  object-position: top;    /* Align image to top */
+}
+
+
+
+#inspire{
+  padding: 15px;
+}
+
+.SIUUU, .DA17, .curry, .DB1{
    font-family: 'Bebas Neue', cursive;
 /*   font-size: 22px; */
   color: white;
@@ -155,14 +172,6 @@ h1{
   word-spacing: 3px;
   letter-spacing: 3px;
 }
-
-.carousel-item img{
-  object-fit: cover;
-  object-position: center;
-  height: 95vh;
-  overflow: hidden;
-  padding-top: 20px;
- }
 
 
 .carousel-caption{
